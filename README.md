@@ -1,7 +1,8 @@
 # SecuPass
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/CalValmar/SecuPass/master/LICENSE)
-[![Made with Python](https://img.shields.io/badge/Made%20with-Python-blue)
+[![GitHub license](https://img.shields.io/badge/License-MIT-orange)](https://raw.githubusercontent.com/CalValmar/SecuPass/master/LICENSE)
+[Made with Python](https://img.shields.io/badge/Made%20with-Python-blue)
+[Version](https://img.shields.io/badge/Version-1.0-brightgreen)
 
 SecuPass a simple password generator and checker. It is written in python3 and uses the tkinter library for the GUI.
 
@@ -35,10 +36,7 @@ python main.py
 - [ ] Password checker normal + GUI
 
 ## Author
-[CalValmar](hhttps://github.com/CalValmar)
-
-## Version
-1.0.0
+[CalValmar](https://github.com/CalValmar)
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
