@@ -2,9 +2,7 @@ import string           # https://docs.python.org/3/library/string.html
 import secrets          # https://docs.python.org/3/library/secrets.html
 import time             # https://docs.python.org/3/library/time.html
 
-
 characters = []
-
 
 # ~~~~~ Password Characters ~~~~~ #
 # Choose the characters you want in your password
