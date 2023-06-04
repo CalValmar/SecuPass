@@ -41,12 +41,12 @@ def password_strength(password):
         print("Invalid password.")
 
     # Send password to Kaspersky Password Checker
-    url = 'https://password.kaspersky.com/en/'
+    url = 'https://password.kaspersky.com'
     response = requests.post(url, data={'password': password})
 
     if response.status_code == 200:
         soup = BeautifulSoup(response.content, 'html.parser')
-        strength_element = soup.find('div', class_='password-rating-value')
+        strength_element = soup.find('input', class_="passwd-check pl-4")
         if strength_element:
             strength = strength_element.text.strip()
             print("Kaspersky Password Strength: ", strength)
