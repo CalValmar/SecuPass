@@ -95,3 +95,6 @@ def pass_gen(lenght, lower_case, upper_case, digits, symbols):
             print("\nYou have to choose at least one type of character for your password.")
             password = pass_gen(pass_length(), pass_lower_case(), pass_upper_case(), pass_digits(), pass_symbols())
     return password
+
+
+# ~~~~~ GUI ~~~~~ #
