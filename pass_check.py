@@ -1,8 +1,5 @@
 import re           # https://docs.python.org/3/library/re.html
 
-password = input("Enter your password: ")
-print("")
-
 # ~~~~~ Password Strength ~~~~~ #
 # Check the strength of your password
 
@@ -37,7 +34,3 @@ def password_strength(password):
         print("Your password is strong.")
     else:
         print("Invalid password.")
-
-
-if __name__ == "__main__":
-    password_strength(password)
