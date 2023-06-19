@@ -2,7 +2,7 @@ from pass_check import *
 from pass_gen import *
 import tkinter as tk                # https://docs.python.org/fr/3/library/tkinter.html
 from tkinter import messagebox      # https://docs.python.org/fr/3/library/tkinter.messagebox.html
-import subprocess
+import subprocess                   # https://docs.python.org/fr/3/library/subprocess.html
 
 # The GUI ask if execute pass_gen.py to generate a password or pass_check.py to check the strength of a password
 # If the user click on "Generate a password", the GUI execute pass_gen.py

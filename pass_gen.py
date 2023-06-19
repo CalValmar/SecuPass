@@ -1,6 +1,7 @@
 import string           # https://docs.python.org/3/library/string.html
 import secrets          # https://docs.python.org/3/library/secrets.html
-import time             # https://docs.python.org/3/library/time.html
+import tkinter as tk
+from tkinter import messagebox
 
 characters = []
 
@@ -98,3 +99,21 @@ def pass_gen(lenght, lower_case, upper_case, digits, symbols):
 
 
 # ~~~~~ GUI ~~~~~ #
+
+def generate_password():
+    password = pass_gen(pass_length(), pass_lower_case(), pass_upper_case(), pass_digits(), pass_symbols())
+    messagebox.showinfo("Password generated", "Your password is: " + password)    
+
+def go_back():
+    root.destroy()
+
+root = tk.Tk()
+root.title("Password Generator")
+
+generate_button = tk.Button(root, text="Generate", command=generate_password)
+generate_button.pack()
+
+back_button = tk.Button(root, text="Back", command=go_back)
+back_button.pack()
+
+root.mainloop()
